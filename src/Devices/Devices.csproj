@@ -120,14 +120,22 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Common\DelayHelper.cs" />
+    <Compile Include="Common\I2cDeviceExtensions.cs" />
+    <Compile Include="Pca9685\Mode1.cs" />
+    <Compile Include="Pca9685\Mode2.cs" />
+    <Compile Include="Pca9685\Pca9685.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Pca9685\Register.cs" />
     <EmbeddedResource Include="Properties\Devices.rd.xml" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.9</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Devices.nuspec" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

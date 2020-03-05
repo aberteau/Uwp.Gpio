@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Uwp.Gpio.Devices</id>
+    <version>0.1.0</version>
+    <title>Uwp.Gpio.Devices</title>
+    <authors>Amaël BERTEAU</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <description>UWP implementations for various IoT boards, chips, displays and PCBs. (PCA9685, ...)</description>
+    <copyright>Copyright 2020</copyright>
+    <tags>RPI UWP GPIO PCA9685</tags>
+  </metadata>
+</package>
