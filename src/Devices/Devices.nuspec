@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Uwp.Gpio.Devices</id>
-    <version>0.1.0</version>
+    <version>0.2.3</version>
     <title>Uwp.Gpio.Devices</title>
     <authors>Amaël BERTEAU</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -11,4 +11,19 @@
     <copyright>Copyright 2020</copyright>
     <tags>RPI UWP GPIO PCA9685</tags>
   </metadata>
+
+  <files>
+    <file src="bin\Release\Uwp.Gpio.Devices.dll" target="ref\uap10.0" />
+    <file src="bin\Release\Uwp.Gpio.Devices.pri" target="ref\uap10.0" />
+
+    <!-- The architecture-specific files go in architecture-specific directories. -->
+    <file src="bin\x86\Release\Uwp.Gpio.Devices.dll" target="runtimes\win10-x86\lib\uap10.0" />
+    <file src="bin\x86\Release\Uwp.Gpio.Devices.pdb" target="runtimes\win10-x86\lib\uap10.0" />
+
+    <file src="bin\x64\Release\Uwp.Gpio.Devices.dll" target="runtimes\win10-x64\lib\uap10.0" />
+    <file src="bin\x64\Release\Uwp.Gpio.Devices.pdb" target="runtimes\win10-x64\lib\uap10.0" />
+
+    <file src="bin\arm\Release\Uwp.Gpio.Devices.dll" target="runtimes\win10-arm\lib\uap10.0" />
+    <file src="bin\arm\Release\Uwp.Gpio.Devices.pdb" target="runtimes\win10-arm\lib\uap10.0" />
+  </files>
 </package>
