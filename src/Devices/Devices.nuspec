@@ -6,6 +6,7 @@
     <title>Uwp.Gpio.Devices</title>
     <authors>Amaël BERTEAU</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/aberteau/Uwp.Gpio/</projectUrl>
     <license type="expression">MIT</license>
     <description>UWP implementations for various IoT boards, chips, displays and PCBs. (PCA9685, ...)</description>
     <copyright>Copyright 2020</copyright>
